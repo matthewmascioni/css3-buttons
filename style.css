@@ -1,0 +1,208 @@
+/*
+Some CSS3 Buttons
+*/
+
+/* == Begin the basic body styles == */
+
+html, body {
+	height: 100%;
+	background-image: url("bg.png");
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#container {
+	width: 960px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+hgroup {
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+hgroup h1 {
+	font-size: 60px;
+	color: #505050;
+}
+
+hgroup h2 {
+	font-size: 30px;
+	color: #202020;
+	margin-top: -35px;
+}
+
+/* == The meat and potatoes of this are the buttons- here's the CSS for all of them. == */
+
+#blue {
+	background-color: #84c5f3;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#84C5F3), to(#56afee));
+	background: -moz-linear-gradient(top, #84C5F3 0%, #56afee 100%);
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #2798ea;
+	box-shadow: 0px 0px 10px #ddd;
+	color: #f0f8fe;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #020a11;
+}
+
+#blue:hover {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#93ccf5), to(#75bef1));
+	background: -moz-linear-gradient(top, #93ccf5 0%, #75bef1 100%);
+}
+
+#green {
+	margin-top: 20px; /* <- Simply used as a separator. Can be removed */
+	background-color: #9cb63e;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9CB63E), to(#71832d));
+	background: -moz-linear-gradient(top, #9CB63E 0%, #71832d 100%);
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #5b6a24;
+	box-shadow: 0px 0px 10px #ddd;
+	color: #f0f8fe;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #020a11;
+}
+
+#green:hover {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5c045), to(#91a93a));
+	background: -moz-linear-gradient(top, #a5c045 0%, #91a93a 100%);
+}
+
+#orange {
+	margin-top: 20px; /* <- Simply used as a separator. Can be removed */
+	background-color: #e37f3d;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e37f3d), to(#cf651e));
+	background: -moz-linear-gradient(top, #e37f3d 0%, #cf651e 100%);
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #a34f17;
+	box-shadow: 0px 0px 10px #ddd;
+	color: #f0f8fe;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #020a11;
+}
+
+#orange:hover {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5894c), to(#e1752e));
+	background: -moz-linear-gradient(top, #e5894c 0%, #e1752e 100%);
+}
+
+#yellow {
+	margin-top: 20px; /* <- Simply used as a separator. Can be removed */
+	background-color: #f8c95d;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8c95d), to(#f6b31b));
+	background: -moz-linear-gradient(top, #f8c95d 0%, #f6b31b 100%);
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #a47407;
+	box-shadow: 0px 0px 10px #ddd;
+	color: #fefaef;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #322402;
+}
+
+#yellow:hover {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9ce6d), to(#f7c44d));
+	background: -moz-linear-gradient(top, #f9ce6d 0%, #f7c44d 100%);
+}
+
+#red {
+	margin-top: 20px; /* <- Simply used as a separator. Can be removed */
+	background-color: #fd5046;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fd5046), to(#fd3024));
+	background: -moz-linear-gradient(top, #fd5046 0%, #fd3024 100%);
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #870901;
+	box-shadow: 0px 0px 10px #ddd;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #430401;
+}
+
+#red:hover {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fd6057), to(#fd4035));
+	background: -moz-linear-gradient(top, #fd6057 0%, #fd4035 100%);
+}
+
+#black {
+	margin-top: 20px; /* <- Simply used as a separator. Can be removed */
+	background-color: #202020;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#404040), to(#606060));
+	background: -moz-linear-gradient(top, #404040 0%, #606060 100%);
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #272727;
+	box-shadow: 0px 0px 10px #ddd;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #430401;
+}
+
+#black:hover {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#595959), to(#515151));
+	background: -moz-linear-gradient(top, #595959 0%, #515151 100%);
+}
+
+h3.bye {
+	margin-top: 70px;
+	font-size: 20px;
+	text-align: center;
+	color: #606060;
+}
+
+h3.bye a {
+	color: #808080;
+	-webkit-transition: color 0.2s linear;
+}
+
+h3.bye a:hover {
+	color: #404040;
+	-webkit-transition: color 0.2s linear;
+}
