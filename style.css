@@ -60,6 +60,7 @@ hgroup h2 {
 	border: .0625em solid #2798ea; /* 1/16 */
 	box-shadow: 0 0 .625em #ddd; /* 10/16 */
 	color: #f0f8fe;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	text-shadow: 0 0 .0625em #020a11; /* 1/16 */
 	cursor: pointer;
@@ -94,6 +95,7 @@ hgroup h2 {
 	border: .0625em solid #5b6a24; /*1/16*/
 	box-shadow: 0 0 .625em #ddd; /* 10/16 */
 	color: #f0f8fe;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	text-shadow: 0 0 .0625em #020a11; /* 1/16 */
 	cursor: pointer;
@@ -128,6 +130,7 @@ hgroup h2 {
 	border: .0625em solid #a34f17; /*1/16*/
 	box-shadow: 0 0 .625em #ddd; /* 10/16 */
 	color: #f0f8fe;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	text-shadow: 0 0 .0625em #020a11; /* 1/16 */
 	cursor: pointer;
@@ -162,6 +165,7 @@ hgroup h2 {
 	border: .0625em solid #a47407; /*1/16*/
 	box-shadow: 0 0 .625em #ddd; /* 10/16 */
 	color: #fefaef;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	text-shadow: 0 0 .09375em #221801; /* 1.5/16 */
 	cursor: pointer;
@@ -196,6 +200,7 @@ hgroup h2 {
 	border: .0625em solid #870901; /*1/16*/
 	box-shadow: 0 0 .625em #ddd; /* 10/16 */
 	color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	text-shadow: 0 0 .0625em #430401; /* 1/16*/
 	cursor: pointer;
@@ -230,6 +235,7 @@ hgroup h2 {
 	border: .0625em solid #360946; /*1/16*/
 	box-shadow: 0 0 .625em #ddd; /* 10/16 */
 	color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	text-shadow: 0 0 .0625em #edccf8; /* 1/16*/
 	cursor: pointer;
@@ -265,6 +271,7 @@ hgroup h2 {
 	border: .0625em solid #272727; /*1/16*/
 	box-shadow: 0 0 .625em #ddd; /* 10/16 */
 	color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	text-shadow: 0 0 .0625em #430401; /* 1/16*/
 	cursor: pointer;
